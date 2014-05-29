@@ -11,7 +11,9 @@ jQuery(function ($) {
     {
       name: 'ripple/ripple-blobvault',
       branch: 'master'
-    }
+    },
+    'ripple/ripple-rest',
+    'ripple/gatewayd'
   ];
 
   // Some customization for Moment.js
