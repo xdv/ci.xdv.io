@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ripple Continuous Integration</title>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/identity.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div id="container" class="lit">
+    <h1>Travis</h1>
+    <p>TravisCI is our primary continuous integration (CI) solution. It's public and free for open-source projects, so its easy for anyone to fork our projects and test their own branches.</p>
+    <table id="project_list" class="table">
+      <thead>
+        <tr>
+          <th class="status">Status</th>
+          <th class="name">Project name</th>
+          <th class="commit">Last commit</th>
+          <th class="duration">Duration</th>
+          <th class="time">Last tested</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <h1>Jenkins</h1>
+    <p>We also maintain a Jenkins instance which is not yet public. For now, you can only access Jenkins if you're an employee or a contributor.</p>
+    <p>To access Jenkins' web interface, please click the link below and sign in using your Ripple-associated GitHub account.</p>
+    <p><strong><a href="/jenkins/">Jenkins CI</a></strong></p>
+  </div>
+</body>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/async/1.22/async.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
+<script type="text/javascript" src="js/project-status.js"></script>
+</html>

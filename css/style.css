@@ -1,0 +1,54 @@
+#result {
+  display: none;
+}
+
+#log {
+  font-weight: 700;
+}
+
+
+#project_list .status {
+  width: 1%;
+  white-space: nowrap;
+}
+
+#project_list .name {
+  width: 1%;
+  white-space: nowrap;
+}
+
+#project_list td.status.success {
+  color: #3c763d;
+}
+#project_list td.status.success a {
+  color: #3c763d;
+  font-weight: bold;
+}
+
+#project_list td.status.warning {
+  color: #8a6d3b;
+}
+#project_list td.status.warning a {
+  color: #8a6d3b;
+  font-weight: bold;
+}
+
+#project_list td.status.danger {
+  color: #843534;
+}
+#project_list td.status.danger a {
+  color: #843534;
+  font-weight: bold;
+}
+
+#project_list td.status.info {
+  color: #245269;
+}
+#project_list td.status.info a {
+  color: #245269;
+  font-weight: bold;
+}
+
+.commit_author {
+  font-size: 80%;
+}

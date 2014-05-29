@@ -1,0 +1,86 @@
+
+
+body {
+  background: url("../img/bg-gray.png") repeat scroll center top transparent;
+  color: #5B5B5B;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+#container {
+  padding: 20px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #173847;
+  display: block;
+  font-size: 36px;
+  margin: 1.2em 0 0.8em;
+}
+
+a {
+  color: #0088CC;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+strong, em {
+  font-weight: 700;
+}
+
+p {
+  padding: .25em 0;
+}
+
+ul, ol {
+  margin: .5em 1.5em;
+}
+
+li {
+  padding: .25em 0;
+}
+
+ol li,
+ul ol li {list-style-type: decimal;}
+ul li {list-style-type: disc;}
+ul ul li {list-style-type: circle;}
+ul ul ul li {list-style-type: square;}
+ol ol li {list-style-type: lower-alpha;}
+ol ol ol li {list-style-type: lower-roman;}
+
+.lit {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.green {
+  color: #8FBE00;
+}
+
+.blue {
+  color: #2973BA;
+}
+
+.red {
+  color: #CC2A41;
+}
+
+.orange {
+  color: #D4A324;
+}
