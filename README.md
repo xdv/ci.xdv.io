@@ -1,3 +1,3 @@
-# Ripple CI Portal
+# Divvy CI Portal
 
-This is a simple website to track the status for CI for all Ripple projects, visible on https://ci.ripple.com/
+This is a simple website to track the status for CI for all Divvy projects, visible on https://ci.xdv.io/
