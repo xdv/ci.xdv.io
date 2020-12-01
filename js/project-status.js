@@ -1,19 +1,19 @@
 jQuery(function ($) {
   // List of Github/Travis projects to query
   var projects = [
-    'ripple/rippled',
-    'ripple/ripple-lib',
+    'xdv/divvyd',
+    'xdv/divvy-lib',
     {
-      name: 'ripple/ripple-lib-java',
+      name: 'xdv/divvy-lib-java',
       branch: 'master'
     },
-    'ripple/ripple-client',
+    'xdv/divvy-client',
     {
-      name: 'ripple/ripple-blobvault',
+      name: 'xdv/divvy-blobvault',
       branch: 'master'
     },
-    'ripple/ripple-rest',
-    'ripple/gatewayd'
+    'xdv/divvy-rest',
+    'xdv/gatewayd'
   ];
 
   // Some customization for Moment.js
